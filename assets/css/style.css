@@ -37,7 +37,7 @@ h1{
 
 p{
     margin: 0;
-    font-size:30px
+    font-size:30px;
     font-weight: 300px;
 }
 
@@ -67,6 +67,7 @@ footer{
 .hero-text{
     margin-left:40px;
     margin-bottom: 200px;
+    /* line-height: 2; */
 }
 
 .button{
@@ -93,7 +94,15 @@ footer{
 }
 
 .socials{
-    padding-bottom: 200px;
+    margin-bottom: 200px;
+    margin-right:20px;
+    /* margin-top:50px; */
+    /* justify-content: space-evenly; */
+    
+}
+
+.social-icon{
+    margin: 20px;
 }
 
 .about-me{
@@ -101,5 +110,9 @@ footer{
 }
 
 .projects{
+
+}
+
+.logo{
 
 }
