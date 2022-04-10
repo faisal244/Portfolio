@@ -1,0 +1,28 @@
+nav{
+
+    display: flex;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    width: 200px;
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+
+}
+
+.about-me{
+
+}
+
+.projects{
+
+}
