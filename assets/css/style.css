@@ -153,7 +153,8 @@ footer{
 .project-container{
     display: flex;
     justify-content: space-around;
-    
+    flex-wrap: wrap;
+    /* May need to remove flex wrap here and replace it with media queries later, or use them both together */
     
 }
 
