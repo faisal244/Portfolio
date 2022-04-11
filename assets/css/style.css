@@ -1,5 +1,5 @@
 section{
-    height: 500px;
+    /* height: 500px; */
     background-color:white;
     border: 1px solid black;
     
@@ -32,6 +32,13 @@ li{
 h1{
     font: size 90px;
     margin:0;
+
+}
+/* maybe drop down to 50px depending on how it looks on mobile */
+h2{
+    font: size 50px;
+
+    }
 
 }
 
@@ -105,8 +112,26 @@ footer{
     margin: 20px;
 }
 
-.about-me{
+.information{
 
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+.headshot{
+    width:200px;
+
+    border-radius: 300px;
 }
 
 .projects{
