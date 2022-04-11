@@ -48,6 +48,11 @@ p{
     font-weight: 300px;
 }
 
+.subtext{
+    font-size:15px;
+    font-weight: 300;
+}
+
 footer{
     height:500px;
     background-color: black;
@@ -152,7 +157,8 @@ footer{
 .project-card{
     width:300px;
     height:500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 20px rgb(185, 183, 183);
 
 }
 
