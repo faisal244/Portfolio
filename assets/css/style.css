@@ -48,6 +48,11 @@ p{
     font-weight: 300px;
 }
 
+hr{ 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .subtext{
     font-size:15px;
     font-weight: 300;
@@ -150,16 +155,25 @@ footer{
     justify-content: space-around;
     
     
-    
-
 }
 
 .project-card{
-    width:300px;
-    height:500px;
+    width:350px;
+    height:800px;
     /* border: 1px solid black; */
     box-shadow: 5px 5px 20px rgb(185, 183, 183);
+    margin: 10px;
+}
 
+.project-image{
+    width:250px;
+    /* border-radius: 250px; */
+    margin-top:25px;    
+}
+
+.project-link{
+    text-decoration: none;
+    color: coral;
 }
 
 
