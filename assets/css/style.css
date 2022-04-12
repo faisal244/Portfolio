@@ -111,6 +111,19 @@ footer{
     margin-top: 20px;
 }
 
+.cv-button{
+    width: 200px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: coral;
+    font-size: 30px;
+    font-weight: 300px;
+    text-align: center;
+    align-items: center;
+    padding-top:10px;
+    margin-top: 20px;
+}
+
 .button:hover{
     background-color:#ef744b;
 
