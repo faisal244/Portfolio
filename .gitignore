@@ -5,6 +5,7 @@
 
 # VS Code Folder
 *.vscode-folder
+*.vscode
 
 # User-specific files
 *.rsuser
