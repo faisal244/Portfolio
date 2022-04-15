@@ -15,6 +15,7 @@ nav{
     justify-content: space-between;
     /* Adjust padding if needed  to solve any mobile responsiveness issues*/
     /* padding: 2rem;  */
+    
 
 }
 
@@ -108,30 +109,35 @@ footer{
 }
 
 .button{
-    width: 200px;
-    height: 55px;
+    /* width: 200px;
+    height: 55px; */
+    width: 14rem;
+    height: 4rem;
     border-radius: 30px;
     background-color: coral;
     font-size: 30px;
     font-weight: 300px;
     text-align: center;
     align-items: center;
-    padding-top:10px;
+    padding-top:22px;
     margin-top: 20px;
 }
 
 .cv-button{
-    width: 200px;
-    height: 70px;
+    width: 20rem;
+    height: 4rem;
     border-radius: 30px;
     background-color: coral;
     font-size: 30px;
     font-weight: 300px;
     text-align: center;
     align-items: center;
-    padding-top:10px;
-    margin-top: 20px;
+    padding-top:30px;
+    margin-top: 50px;
 }
+
+width: 20rem;
+    
 
 .button:hover{
     background-color:#ef744b;
@@ -265,7 +271,6 @@ footer{
         display: flex;
         flex-direction: column-reverse;
         background-color: #2b2c38;
-        
 
     }
 
@@ -302,5 +307,23 @@ footer{
     display: flex;
     flex-direction: column; 
 }
-    
+
+.cv-button{
+    width: 20rem;
+    height: 5rem;
+    border-radius: 30px;
+    background-color: coral;
+    font-size: 30px;
+    font-weight: 300px;
+    text-align: center;
+    align-items: center;
+    padding-top:50px;
+    margin-top: 75px;
+    justify-content: center;
+}
+
+/* .cv-button a { 
+    justify-content: center;
+    align-items: center; 
+    display: flex; */
 }
