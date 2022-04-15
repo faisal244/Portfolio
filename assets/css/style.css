@@ -13,7 +13,9 @@ nav{
 
     display: flex;
     justify-content: space-between;
-    /* flex:auto:not sure if this is needed yet  */ 
+    /* Adjust padding if needed  to solve any mobile responsiveness issues*/
+    /* padding: 2rem;  */
+
 }
 
 ul{
@@ -24,9 +26,11 @@ ul{
     font-size: 30px;
 }
 
+
 li{
     /* width: 200px; */
     text-decoration: none;
+    padding: 0.5rem;
 }
 
 h1{
@@ -34,6 +38,7 @@ h1{
     margin:0;
 
 }
+
 /* maybe drop down to 50px depending on how it looks on mobile */
 h2{
     font: size 50px;
@@ -224,9 +229,37 @@ footer{
         background-color: transparent;
         color: white;
         font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    .hamburger: focus {
+       outline: 0;
     }
 
     ul{
+        display:none;
+        background-color: #2b2c38;
+        margin: 0px;
+        
+
+    }
+
+    ul.show{
+        display: block;
+        
+    
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+        
+
+    }
+
+    .logo{
         display:none;
     }
 
