@@ -67,6 +67,19 @@ footer{
     color: white;
     text-align: center;
     padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .socials{
+    /* margin-bottom: 200px; */
+    /* margin-right:20px; */
+    display: flex;
+    justify-content: center;
+    /* margin-top:50px; */
+    /* justify-content: space-evenly; */
+    padding-top:50px;
+    
 }
 
 #contact-me{
@@ -254,16 +267,17 @@ footer{
 .project-container{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-grow: 1;
     /* May need to remove flex wrap here and replace it with media queries later, or use them both together */
     
 }
 
 .project-card{
     /* changed from ixels to view width here to control positioning better */
-    width:25vw;
-    min-width: 400px;
+    width:25%;
+    min-width: 300px;
     /* may need to set heigh back from auto to 800px if all the cards ends up being different sizes once content is added to them */
     height:auto;
     /* border: 1px solid black; */
