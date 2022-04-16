@@ -66,7 +66,7 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 80px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -171,18 +171,21 @@ footer .socials{
 }
 
 
-
+/* About me Section styling */
 .sub-section{
     display: flex;
     justify-content: space-around;
     padding: 80px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     /* setting 100vh for this section breaks the headshot image positioning - leave this for now and maybe revisit this in future and try setting 100vh for each section with an animation to transition between */
     /* height: 100vh; */
 
 }
 
+/* This is whaere you can adjust the font size for the about me text */
 .sub-section p {
-    font-size: 30px;
+    font-size: 1.2rem;
 }
 
 .sub-section-alternative{
@@ -209,7 +212,9 @@ footer .socials{
 
 .information{
   
-    padding-bottom: 0px; 
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
 }
 
 .project-hero-container{
