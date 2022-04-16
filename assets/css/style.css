@@ -35,14 +35,14 @@ li{
 }
 
 h1{
-    font: size 90px;
+    font-size: 90px;
     margin:0;
 
 }
 
 /* maybe drop down to 50px depending on how it looks on mobile */
 h2{
-    font: size 50px;
+    font-size: 50px;
 
 }
 
@@ -74,10 +74,6 @@ footer{
 }
 
 
-.subtext{
-    font-size:15px;
-    font-weight: 300;
-}
 
 
 
@@ -136,7 +132,6 @@ footer{
     margin-top: 50px;
 }
 
-width: 20rem;
     
 
 .button:hover{
@@ -197,7 +192,39 @@ width: 20rem;
     margin-left: 80px;
 }
 
+.project-hero-container{
+
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    padding-top:0px;
+    padding-bottom:2rem;
+
+    /* /* display: inline-block; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* width:75vh; */
+    May need to remove flex wrap here and replace it with media queries later, or use them both together */
+    
+}
+
+.project-card-hero{
+    /* changed from ixels to view width here to control positioning better */
+    width:auto;
+    min-width: 400px;
+    /* may need to set heigh back from auto to 800px if all the cards ends up being different sizes once content is added to them */
+    height:auto;
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 20px rgb(185, 183, 183);
+    margin: 10px;
+    padding:30px;
+    
+    
+}
+
 .project-container{
+
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -206,12 +233,25 @@ width: 20rem;
 }
 
 .project-card{
-    width:350px;
-    height:800px;
+    /* changed from ixels to view width here to control positioning better */
+    width:25vw;
+    min-width: 400px;
+    /* may need to set heigh back from auto to 800px if all the cards ends up being different sizes once content is added to them */
+    height:auto;
     /* border: 1px solid black; */
     box-shadow: 5px 5px 20px rgb(185, 183, 183);
     margin: 10px;
+    padding:30px;
+    
+    
 }
+
+
+.subtext{
+    font-size:20px;
+    font-weight: 300;
+}
+
 
 .project-image{
     width:250px;
@@ -222,6 +262,8 @@ width: 20rem;
 .project-link{
     text-decoration: none;
     color: coral;
+    font-size: 25px;
+    font-weight: 200px;
 }
 
 
@@ -237,6 +279,10 @@ width: 20rem;
     .project-container{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .project-card{
+        width:75vw;
     }
 
     .hamburger {
@@ -322,8 +368,18 @@ width: 20rem;
     justify-content: center;
 }
 
-/* .cv-button a { 
-    justify-content: center;
-    align-items: center; 
-    display: flex; */
+
+    .project-card-hero{
+        /* changed from pixels to view width here to control positioning better */
+        width:75vh;
+        /* min-width: 400px; */
+        /* may need to set heigh back from auto to 800px if all the cards ends up being different sizes once content is added to them */
+        height:auto;
+        /* border: 1px solid black; */
+        box-shadow: 5px 5px 20px rgb(185, 183, 183);
+        margin: 10px;
+        padding:30px;
+        
+        
+    }
 }
