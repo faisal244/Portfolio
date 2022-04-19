@@ -330,6 +330,14 @@ footer .socials{
 
 @media only screen and (max-width: 1000px) {
 
+    .hero h1{
+        font-size: 50px;
+    }
+
+    .hero p{
+        font-size: 30px;
+    }
+
     /* Project section responsive layout*/
     .project-container{
         display: flex;
