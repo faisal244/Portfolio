@@ -42,7 +42,6 @@ The following animation shows the web application's appearance and functionality
 ![portfolio demo](/assets/images/website-mockup.gif)
 
 
-
 Below is an overview of the changes made to meet the University of Birmingham acceptance criteria:
 
 ## HTML
@@ -110,6 +109,10 @@ Below is an overview of the changes made to meet the University of Birmingham ac
 * Created a toggleButton function that shows and hides the 3 top navigation links
 
 * Created an event listener that listens for clicks to the hamburger button, which shows or hides the 3 top navigation links
+
+## Note:
+
+My CV is in the process of being updated, and has not been included yet - so the Download CV button currently doesn't link to any file
 
 
 ## Future Features and functionality

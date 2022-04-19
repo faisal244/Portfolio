@@ -345,7 +345,7 @@ footer .socials{
 
 
     .project-hero-image{
-        content: url(/assets/images/01-html-css-git-homework-demo.png);
+        content: url(assets/images/01-html-css-git-homework-demo.png);
         width:250px;
         margin-top:25px; 
         height: auto;
