@@ -345,7 +345,7 @@ footer .socials{
 
 
     .project-hero-image{
-        content: url("/assets/images/01-html-css-git-homework-demo.png");
+        content: url("https://github.com/faisal244/Portfolio/blob/main/assets/images/01-html-css-git-homework-demo.png?raw=true");
         width:250px;
         margin-top:25px; 
         height: auto;
