@@ -1,3 +1,13 @@
+:root{  
+    --button-color: coral;
+    --button-color-hover: #ef744b;
+    --button-color-active: darkgrey; 
+    --button-text-active: #808080;
+    --box-shadow: 5px 5px 20px rgb(185, 183, 183);
+    --hamburger-background-color: #2b2c38;
+
+}
+
 section{
     /* height: 500px; */
     background-color:white;
@@ -69,6 +79,7 @@ footer{
     padding: 50px;
     display: flex;
     flex-direction: column;
+    line-height: 2em;
 }
 
 footer .socials{
@@ -128,12 +139,11 @@ footer .socials{
 }
 
 .button{
-    /* width: 200px;
-    height: 55px; */
+   
     width: 14rem;
     height: 4rem;
     border-radius: 30px;
-    background-color: coral;
+    background-color: var(--button-color);
     font-size: 30px;
     font-weight: 300px;
     text-align: center;
@@ -146,7 +156,7 @@ footer .socials{
     width: 20rem;
     height: 4rem;
     border-radius: 30px;
-    background-color: coral;
+    background-color: var(--button-color);
     font-size: 30px;
     font-weight: 300px;
     text-align: center;
@@ -158,13 +168,15 @@ footer .socials{
     
 
 .button:hover{
-    background-color:#ef744b;
+    background-color:var(--button-color-hover);
 
 }
 
 .button:active{
-    background-color: darkgrey;
-    color: #808080;
+    background-color: var(--button-color-active);
+    color: var(--button-text-active);
+    /* background-color: darkgrey;
+    color: #808080; */
 }
 
 .socials{
@@ -250,22 +262,25 @@ footer .socials{
       /* may need to set heigh back from auto to 800px if all the cards ends up being different sizes once content is added to them */
       height:auto;
       /* border: 1px solid black; */
-      box-shadow: 5px 5px 20px rgb(185, 183, 183);
+
+      /* box-shadow: 5px 5px 20px rgb(185, 183, 183); */
+        box-shadow: var(--box-shadow);
       margin: 10px;
       padding:30px;
     
 }
 
-.project-card-hero{
+/* .project-card-hero{ - all of this can be deleted - not needed anymore
     /* changed from ixels to view width here to control positioning better */
     width:auto;
     min-width: 400px;
     /* may need to set heigh back from auto to 800px if all the cards ends up being different sizes once content is added to them */
     height:auto;
     /* border: 1px solid black; */
+
     box-shadow: 5px 5px 20px rgb(185, 183, 183);
     /* margin: 10px; */
-    padding:30px;
+    padding:30px; */
     
     
 }
@@ -295,7 +310,8 @@ footer .socials{
     /* may need to set height back from auto to 800px if all the cards ends up being different sizes once content is added to them */
     height:auto;
     /* border: 1px solid black; */
-    box-shadow: 5px 5px 20px rgb(185, 183, 183);
+    box-shadow: var(--box-shadow);
+    /* box-shadow: 5px 5px 20px rgb(185, 183, 183); */
     margin: 10px;
     padding:30px;
     
@@ -388,7 +404,8 @@ footer .socials{
 
     ul{
         display:none;
-        background-color: #2b2c38;
+        /* background-color: #2b2c38; */
+        background-color: var(--hamburger-background-color)
         margin: 0px;
         
 
@@ -403,7 +420,8 @@ footer .socials{
     nav{
         display: flex;
         flex-direction: column-reverse;
-        background-color: #2b2c38;
+        /* background-color: #2b2c38; */
+        background-color: var(--hamburger-background-color)
 
     }
 

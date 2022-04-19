@@ -29,6 +29,10 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+## Link to deployed application
+
+* https://
+
 
 
 ## Mock-Up
@@ -58,6 +62,12 @@ Below is an overview of the changes made to meet the University of Birmingham ac
 * The 3 Navigation links scroll down to their relevant section
 
 * Used semantic html tags across the site to define the main sections, including a hero area that  visitor first lands on when the page loads, which contains Nav tags button tags, an about me section, a projects section and a footer. Additional divs were placed inside these sections as needed in order to have precise control of styling and positioning via CSS
+
+* Added screenshot images to each project card
+
+* Added view live site and view repo links to each card
+
+* Made each project card image clickable - takes user to the live deployed site
 
 * Added alt text for all images
 
