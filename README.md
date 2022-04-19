@@ -39,7 +39,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](insert .gif link here)
+![portfolio demo](/assets/images/website-mockup.gif)
 
 
 
@@ -51,9 +51,9 @@ Below is an overview of the changes made to meet the University of Birmingham ac
 
 * Added a SEO optimised page title
 
-* Added a meta description
+* Added a meta description to improve SEO for the site
 
-* Added an area for a logo which i can easily change in future should i wish
+* Added an area for a logo SVG image which i can easily change in future should i wish
 
 * Created 3 main navigation links in the top nav, and also added a side navigation that the user sees when the page first loads - which has SVG icons that link to my Github and LinkedIn profiles, as well as an icon that lets anybody reach me via email
 
@@ -62,6 +62,8 @@ Below is an overview of the changes made to meet the University of Birmingham ac
 * The 3 Navigation links scroll down to their relevant section
 
 * Used semantic html tags across the site to define the main sections, including a hero area that  visitor first lands on when the page loads, which contains Nav tags button tags, an about me section, a projects section and a footer. Additional divs were placed inside these sections as needed in order to have precise control of styling and positioning via CSS
+
+* Added extensive comments to the HTML file
 
 * Added screenshot images to each project card
 
@@ -74,12 +76,17 @@ Below is an overview of the changes made to meet the University of Birmingham ac
 * Added indentation and spacing for improved readability
 
 
+
+
+
+
 ## CSS
 
 * Extensively commented the style.css file to allow the client to easily understand changes that have been made and the thought process behind them
 
 * CSS selectors and properties have been re-ordered and organized to follow the cascade and semantic structure.
 
+* Used CSS variables to make global styling changes easier in future
 
 * Top navigation styling - applied some javascript to replace the nav links with a hamburger menu when the viewport is less than 1000px width. Also applied flex properties to make this container responsive to viewport changes and to ensure an even gap between the logo and the nav links 
 
