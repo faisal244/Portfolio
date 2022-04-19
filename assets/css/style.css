@@ -9,10 +9,7 @@
 }
 
 section{
-    /* height: 500px; */
     background-color:white;
-    /* border: 1px solid black; */
-    
 }
 
 body{
@@ -20,13 +17,8 @@ body{
 }
 
 nav{
-
     display: flex;
     justify-content: space-between;
-    /* Adjust padding if needed  to solve any mobile responsiveness issues*/
-    /* padding: 2rem;  */
-    
-
 }
 
 ul{
@@ -39,7 +31,6 @@ ul{
 
 
 li{
-    /* width: 200px; */
     text-decoration: none;
     padding: 0.5rem;
 }
@@ -50,10 +41,9 @@ h1{
 
 }
 
-/* maybe drop down to 50px depending on how it looks on mobile */
+
 h2{
     font-size: 50px;
-
 }
 
 p{
@@ -84,11 +74,8 @@ footer{
 
 footer .socials{
     margin-bottom: 50px;
-    /* margin-right:20px; */
     display: flex;
     justify-content: space-evenly;
-    /* margin-top:50px; */
-    /* justify-content: space-evenly; */
     padding-top:100px;
     
 }
@@ -123,9 +110,7 @@ footer .socials{
 
 .hero-area {
     display: flex;
-    /* flex-direction: column; */
     height: 100%;
-    /* justify-content: center; */
     justify-content: space-between;
     align-items: center;
 
@@ -135,7 +120,6 @@ footer .socials{
     margin-left:40px;
     margin-bottom: 200px;
     flex-wrap: wrap;
-    /* line-height: 2; */
 }
 
 .button{
@@ -175,15 +159,11 @@ footer .socials{
 .button:active{
     background-color: var(--button-color-active);
     color: var(--button-text-active);
-    /* background-color: darkgrey;
-    color: #808080; */
 }
 
 .socials{
     margin-bottom: 200px;
     margin-right:20px;
-    /* margin-top:50px; */
-    /* justify-content: space-evenly; */
     
 }
 
@@ -199,9 +179,6 @@ footer .socials{
     padding: 80px;
     padding-bottom: 0px;
     padding-top: 0px;
-    /* setting 100vh for this section breaks the headshot image positioning - leave this for now and maybe revisit this in future and try setting 100vh for each section with an animation to transition between */
-    /* height: 100vh; */
-
 }
 
 /* This is whaere you can adjust the font size for the about me text */
@@ -219,8 +196,6 @@ footer .socials{
 
 .headshot-container{
     display: block;
-    /* align-items: center; */
-    /* justify-content: start; */
     margin:1rem;
 }
 
@@ -239,56 +214,18 @@ footer .socials{
 }
 
 .project-hero-container{
-
-    /* display: inline-flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 80px;
-    padding-top:0px;
-    padding-bottom:2rem;
-
-    /* /* display: inline-block; */
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
-    /* width:75vh; */
-    /* May need to remove flex wrap here and replace it with media queries later, or use them both together */ */
-    /* display: flex; */
-    /* justify-content: space-around;
-    flex-wrap: wrap; */ */
-
-      /* changed from ixels to view width here to control positioning better */
-      width:25vw;
-      min-width: 400px;
-      /* may need to set heigh back from auto to 800px if all the cards ends up being different sizes once content is added to them */
-      height:auto;
-      /* border: 1px solid black; */
-
-      /* box-shadow: 5px 5px 20px rgb(185, 183, 183); */
-        box-shadow: var(--box-shadow);
-      margin: 10px;
-      padding:30px;
-    
-}
-
-/* .project-card-hero{ - all of this can be deleted - not needed anymore
-    /* changed from ixels to view width here to control positioning better */
-    width:auto;
-    min-width: 400px;
-    /* may need to set heigh back from auto to 800px if all the cards ends up being different sizes once content is added to them */
+    display: inline-block;
     height:auto;
-    /* border: 1px solid black; */
-
-    box-shadow: 5px 5px 20px rgb(185, 183, 183);
-    /* margin: 10px; */
-    padding:30px; */
-    
-    
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+    padding:30px;
 }
+
+
 
 .project-hero-image{
-    width:75vw;
+    /* width:75vw; */
     height:600px;
-    /* border-radius: 250px; */
     margin-top:25px;    
 
 }
@@ -299,7 +236,6 @@ footer .socials{
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-grow: 1;
-    /* May need to remove flex wrap here and replace it with media queries later, or use them both together */
     
 }
 
@@ -309,9 +245,7 @@ footer .socials{
     min-width: 300px;
     /* may need to set height back from auto to 800px if all the cards ends up being different sizes once content is added to them */
     height:auto;
-    /* border: 1px solid black; */
     box-shadow: var(--box-shadow);
-    /* box-shadow: 5px 5px 20px rgb(185, 183, 183); */
     margin: 10px;
     padding:30px;
     
@@ -323,14 +257,12 @@ footer .socials{
 .subtext{
     font-size:20px;
     font-weight: 300;
-    /* min-height: 300px; */
 }
 
 
 .project-image{
     width:250px;
     height: 200px;
-    /* border-radius: 250px; */
     margin-top:25px;    
 }
 
@@ -341,10 +273,6 @@ footer .socials{
     font-weight: 200px;
 }
 
-
-.logo{
-
-}
 
 .hamburger {
     display: none;
@@ -361,8 +289,7 @@ footer .socials{
     }
 
     .project-hero-container{
-        /* display: flex;
-        flex-wrap: wrap; */
+
         width:75vw;
         min-width: 300px;
     }
@@ -376,14 +303,8 @@ footer .socials{
 
 
     .project-hero-image{
-        /* display: flex; */
         content: url(/assets/images/01-html-css-git-homework-demo.png);
-        /* border-radius: 250px; */
-        /* margin-top:25px;     */
-        /* width:25vw;
-        min-width: 300px; */
         width:250px;
-        /* border-radius: 250px; */
         margin-top:25px; 
         height: auto;
     
@@ -404,7 +325,6 @@ footer .socials{
 
     ul{
         display:none;
-        /* background-color: #2b2c38; */
         background-color: var(--hamburger-background-color)
         margin: 0px;
         
@@ -420,7 +340,6 @@ footer .socials{
     nav{
         display: flex;
         flex-direction: column-reverse;
-        /* background-color: #2b2c38; */
         background-color: var(--hamburger-background-color)
 
     }
@@ -448,9 +367,6 @@ footer .socials{
         
     }
     
-   /* .cv-button{
-    justify-content: center;
-   } */
 
    .information{
     justify-content: center;
@@ -458,22 +374,21 @@ footer .socials{
     display: flex;
     flex-direction: column;
     padding-bottom: 0px; 
-}
+    }
 
-.cv-button{
-    width: 20rem;
-    height: 5rem;
-    border-radius: 30px;
-    background-color: coral;
-    font-size: 30px;
-    font-weight: 300px;
-    text-align: center;
-    align-items: center;
-    padding-top:50px;
-    margin-top: 75px;
-    justify-content: center;
-}
+    .cv-button{
+        width: 20rem;
+        height: 5rem;
+        border-radius: 30px;
+        background-color: coral;
+        font-size: 30px;
+        font-weight: 300px;
+        text-align: center;
+        align-items: center;
+        padding-top:50px;
+        margin-top: 75px;
+        justify-content: center;
+    }
 
 
-  
 }
