@@ -1,3 +1,5 @@
+/* CSS Variables */
+
 :root{  
     --button-color: coral;
     --button-color-hover: #ef744b;
@@ -8,18 +10,25 @@
 
 }
 
+
+
+/* CSS Global Element Styling Rules */
+
 section{
     background-color:white;
 }
+
 
 body{
     font-family: 'Poppins', sans-serif;
 }
 
+
 nav{
     display: flex;
     justify-content: space-between;
 }
+
 
 ul{
     display: flex;
@@ -35,6 +44,7 @@ li{
     padding: 0.5rem;
 }
 
+
 h1{
     font-size: 90px;
     margin:0;
@@ -46,22 +56,28 @@ h2{
     font-size: 50px;
 }
 
+
 p{
     margin: 0;
     font-size:30px;
     font-weight: 300px;
 }
 
+
 hr{ 
     margin-left: 20px;
     margin-right: 20px;
 }
+
 
 a{
     text-decoration: none;
     color: white;
 }
 
+
+
+/* Footer Styling */
 footer{
     background-color: black;
     color: white;
@@ -71,6 +87,7 @@ footer{
     flex-direction: column;
     line-height: 2em;
 }
+
 
 footer .socials{
     margin-bottom: 50px;
@@ -82,6 +99,8 @@ footer .socials{
 
 
 
+/* Nav and hero area styling */
+
 .logo{
     width:50px;
     height:50px;
@@ -89,15 +108,10 @@ footer .socials{
     color:white;
 }
 
-#contact-me{
-    color: white;
+
+.hamburger {
+    display: none;
 }
-
-
-
-
-
-
 
 
 .hero {
@@ -108,6 +122,7 @@ footer .socials{
 
 }
 
+
 .hero-area {
     display: flex;
     height: 100%;
@@ -116,14 +131,35 @@ footer .socials{
 
 }
 
+
 .hero-text{
     margin-left:40px;
     margin-bottom: 200px;
     flex-wrap: wrap;
 }
 
+
+.socials{
+    margin-bottom: 200px;
+    margin-right:20px;
+    
+}
+
+
+.social-icon{
+    margin: 20px;
+}
+
+
+#contact-me{
+    color: white;
+}
+
+
+
+/* Button Styling */
+
 .button{
-   
     width: 14rem;
     height: 4rem;
     border-radius: 30px;
@@ -135,6 +171,7 @@ footer .socials{
     padding-top:22px;
     margin-top: 20px;
 }
+
 
 .cv-button{
     width: 20rem;
@@ -149,30 +186,22 @@ footer .socials{
     margin-top: 50px;
 }
 
-    
 
 .button:hover{
     background-color:var(--button-color-hover);
 
 }
 
+
 .button:active{
     background-color: var(--button-color-active);
     color: var(--button-text-active);
 }
 
-.socials{
-    margin-bottom: 200px;
-    margin-right:20px;
-    
-}
-
-.social-icon{
-    margin: 20px;
-}
 
 
 /* About me Section styling */
+
 .sub-section{
     display: flex;
     justify-content: space-around;
@@ -181,10 +210,45 @@ footer .socials{
     padding-top: 0px;
 }
 
+
 /* This is whaere you can adjust the font size for the about me text */
 .sub-section p {
     font-size: 1.2rem;
 }
+
+
+
+/* About me text padding */
+
+.information{
+  
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
+}
+
+
+
+/* Headshot Image styling */
+
+.headshot-container{
+    display: block;
+    margin:1rem;
+}
+
+
+.headshot{
+    width:378px;
+    height: 504px;
+    border-radius: 300px;
+    margin-left: 80px;
+}
+
+
+
+/* Project Section Styling */
+
+/* global project container styling goes here */
 
 .sub-section-alternative{
     display: flex;
@@ -194,24 +258,17 @@ footer .socials{
     padding-top: 0px;
 }
 
-.headshot-container{
-    display: block;
-    margin:1rem;
+
+.project-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 
-.headshot{
-    width:378px;
-    height: 504px;
-    border-radius: 300px;
-    margin-left: 80px;
-}
 
-.information{
-  
-    padding-bottom: 0px;
-    padding-top: 0px;
-    
-}
+
+/* Hero project styling goes here */
 
 .project-hero-container{
     display: inline-block;
@@ -222,7 +279,6 @@ footer .socials{
 }
 
 
-
 .project-hero-image{
     /* width:75vw; */
     height:600px;
@@ -230,17 +286,12 @@ footer .socials{
 
 }
 
-.project-container{
 
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    
-}
+
+/* Project card styling */
 
 .project-card{
-    /* changed from pixels to view width here to control positioning better */
+    /* changed from pixels to view width and then to width% here to control positioning better */
     width:25%;
     min-width: 300px;
     /* may need to set height back from auto to 800px if all the cards ends up being different sizes once content is added to them */
@@ -248,15 +299,6 @@ footer .socials{
     box-shadow: var(--box-shadow);
     margin: 10px;
     padding:30px;
-    
-    
-}
-
-
-
-.subtext{
-    font-size:20px;
-    font-weight: 300;
 }
 
 
@@ -266,6 +308,13 @@ footer .socials{
     margin-top:25px;    
 }
 
+
+.subtext{
+    font-size:20px;
+    font-weight: 300;
+}
+
+
 .project-link{
     text-decoration: none;
     color: coral;
@@ -274,32 +323,25 @@ footer .socials{
 }
 
 
-.hamburger {
-    display: none;
-}
 
 
 
-
+/* Media query - rules for mobile device layout goes here */
 
 @media only screen and (max-width: 1000px) {
+
+    /* Project section responsive layout*/
     .project-container{
         display: flex;
         flex-wrap: wrap;
     }
+
 
     .project-hero-container{
 
         width:75vw;
         min-width: 300px;
     }
-
-    .project-card{
-        width:75vw;
-        min-width: 300px;
-    }
-
-
 
 
     .project-hero-image{
@@ -309,6 +351,30 @@ footer .socials{
         height: auto;
     
     }
+
+
+    .project-card{
+        width:75vw;
+        min-width: 300px;
+    }
+
+
+
+/* Hamburger Menu Styling */
+  
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: var(--hamburger-background-color)
+
+    }
+
+
+    .logo{
+        display:none;
+    }
+
+
     .hamburger {
         display: block;
         border:0;
@@ -319,9 +385,11 @@ footer .socials{
         align-self: flex-end;
     }
 
+
     .hamburger:focus {
        outline: 0;
     }
+
 
     ul{
         display:none;
@@ -331,22 +399,21 @@ footer .socials{
 
     }
 
+
     ul.show{
         display: block;
         
     
     }
 
-    nav{
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: var(--hamburger-background-color)
+ 
 
-    }
+/* About Me Section responsive layout */
+ 
+.hero-text{
+    flex-wrap: wrap;
+ }
 
-    .logo{
-        display:none;
-    }
 
     .sub-section{
         display: flex;
@@ -356,9 +423,6 @@ footer .socials{
     
     }
 
-    .hero-text{
-       flex-wrap: wrap;
-    }
 
     .headshot-container{
         display: flex;
@@ -376,6 +440,7 @@ footer .socials{
     padding-bottom: 0px; 
     }
 
+
     .cv-button{
         width: 20rem;
         height: 5rem;
@@ -389,6 +454,5 @@ footer .socials{
         margin-top: 75px;
         justify-content: center;
     }
-
 
 }
