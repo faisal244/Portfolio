@@ -289,10 +289,10 @@ footer .socials{
 }
 
 .project-card{
-    /* changed from ixels to view width here to control positioning better */
+    /* changed from pixels to view width here to control positioning better */
     width:25%;
     min-width: 300px;
-    /* may need to set heigh back from auto to 800px if all the cards ends up being different sizes once content is added to them */
+    /* may need to set height back from auto to 800px if all the cards ends up being different sizes once content is added to them */
     height:auto;
     /* border: 1px solid black; */
     box-shadow: 5px 5px 20px rgb(185, 183, 183);
@@ -303,14 +303,17 @@ footer .socials{
 }
 
 
+
 .subtext{
     font-size:20px;
     font-weight: 300;
+    /* min-height: 300px; */
 }
 
 
 .project-image{
     width:250px;
+    height: 200px;
     /* border-radius: 250px; */
     margin-top:25px;    
 }
