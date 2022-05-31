@@ -1,470 +1,382 @@
 /* CSS Variables */
 
-:root{  
-    --button-color: coral;
-    --button-color-hover: #ef744b;
-    --button-color-active: darkgrey; 
-    --button-text-active: #808080;
-    --box-shadow: 5px 5px 20px rgb(185, 183, 183);
-    --hamburger-background-color: #2b2c38;
-
+:root {
+	--button-color: coral;
+	--button-color-hover: #ef744b;
+	--button-color-active: darkgrey;
+	--button-text-active: #808080;
+	--box-shadow: 5px 5px 20px rgb(185, 183, 183);
+	--hamburger-background-color: #2b2c38;
 }
-
-
 
 /* CSS Global Element Styling Rules */
 
-html{
-    scroll-behavior: smooth;
+html {
+	scroll-behavior: smooth;
 }
 
-section{
-    background-color:white;
+section {
+	background-color: white;
 }
 
-
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+	font-family: "Poppins", sans-serif;
 }
 
-
-nav{
-    display: flex;
-    justify-content: space-between;
+nav {
+	display: flex;
+	justify-content: space-between;
 }
 
-
-ul{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    width: 500px;
-    font-size: 30px;
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	width: 500px;
+	font-size: 30px;
 }
 
-
-li{
-    text-decoration: none;
-    padding: 0.5rem;
+li {
+	text-decoration: none;
+	padding: 0.5rem;
 }
 
-
-h1{
-    font-size: 90px;
-    margin:0;
-
+h1 {
+	font-size: 90px;
+	margin: 0;
 }
 
-
-h2{
-    font-size: 50px;
+h2 {
+	font-size: 50px;
 }
 
-
-p{
-    margin: 0;
-    font-size:30px;
-    font-weight: 300px;
+p {
+	margin: 0;
+	font-size: 30px;
+	font-weight: 300px;
 }
 
-
-hr{ 
-    margin-left: 20px;
-    margin-right: 20px;
+hr {
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-
-a{
-    text-decoration: none;
-    color: white;
+a {
+	text-decoration: none;
+	color: white;
 }
-
-
 
 /* Footer Styling */
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    line-height: 2em;
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	line-height: 2em;
 }
 
-
-footer .socials{
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top:100px;
-    
+footer .socials {
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 100px;
 }
-
-
 
 /* Nav and hero area styling */
 
-.logo{
-    width:50px;
-    height:50px;
-    margin: 20px;
-    color:white;
+.logo {
+	width: 50px;
+	height: 50px;
+	margin: 20px;
+	color: white;
 }
-
 
 .hamburger {
-    display: none;
+	display: none;
 }
-
 
 .hero {
-    background-color: #1c1d25;
-    height: 100vh;
-    color: white;
-    font-size: 40px;
-
+	background-color: #1c1d25;
+	height: 100vh;
+	color: white;
+	font-size: 40px;
 }
-
 
 .hero-area {
-    display: flex;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
 }
 
-
-.hero-text{
-    margin-left:40px;
-    margin-bottom: 200px;
-    flex-wrap: wrap;
+.hero-text {
+	margin-left: 40px;
+	margin-bottom: 200px;
+	flex-wrap: wrap;
 }
 
-
-.socials{
-    margin-bottom: 200px;
-    margin-right:20px;
-    
+.socials {
+	margin-bottom: 200px;
+	margin-right: 20px;
 }
 
-
-.social-icon{
-    margin: 20px;
+.social-icon {
+	margin: 20px;
 }
 
-
-#contact-me{
-    color: white;
+#contact-me {
+	color: white;
 }
-
-
 
 /* Button Styling */
 
-.button{
-    width: 14rem;
-    height: 4rem;
-    border-radius: 30px;
-    background-color: var(--button-color);
-    font-size: 30px;
-    font-weight: 300px;
-    text-align: center;
-    align-items: center;
-    padding-top:22px;
-    margin-top: 20px;
+.button {
+	width: 14rem;
+	height: 4rem;
+	border-radius: 30px;
+	background-color: var(--button-color);
+	font-size: 30px;
+	font-weight: 300px;
+	text-align: center;
+	align-items: center;
+	padding-top: 22px;
+	margin-top: 20px;
 }
 
-
-.cv-button{
-    width: 20rem;
-    height: 4rem;
-    border-radius: 30px;
-    background-color: var(--button-color);
-    font-size: 30px;
-    font-weight: 300px;
-    text-align: center;
-    align-items: center;
-    padding-top:30px;
-    margin-top: 50px;
+.cv-button {
+	width: 20rem;
+	height: 4rem;
+	border-radius: 30px;
+	background-color: var(--button-color);
+	font-size: 30px;
+	font-weight: 300px;
+	text-align: center;
+	align-items: center;
+	padding-top: 30px;
+	margin-top: 50px;
 }
 
-
-.button:hover{
-    background-color:var(--button-color-hover);
-
+.button:hover {
+	background-color: var(--button-color-hover);
 }
 
-
-.button:active{
-    background-color: var(--button-color-active);
-    color: var(--button-text-active);
+.button:active {
+	background-color: var(--button-color-active);
+	color: var(--button-text-active);
 }
-
-
 
 /* About me Section styling */
 
-.sub-section{
-    display: flex;
-    justify-content: space-around;
-    padding: 80px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+.sub-section {
+	display: flex;
+	justify-content: space-around;
+	padding: 80px;
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
-
 
 /* This is whaere you can adjust the font size for the about me text */
 .sub-section p {
-    font-size: 1.2rem;
+	font-size: 1.2rem;
 }
-
-
 
 /* About me text padding */
 
-.information{
-  
-    padding-bottom: 0px;
-    padding-top: 0px;
-    
+.information {
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
-
-
 
 /* Headshot Image styling */
 
-.headshot-container{
-    display: block;
-    margin:1rem;
+.headshot-container {
+	display: block;
+	margin: 1rem;
 }
 
-
-.headshot{
-    width:378px;
-    height: 504px;
-    border-radius: 300px;
-    margin-left: 80px;
+.headshot {
+	width: 378px;
+	height: 504px;
+	border-radius: 300px;
+	margin-left: 80px;
 }
-
-
 
 /* Project Section Styling */
 
 /* global project container styling goes here */
 
-.sub-section-alternative{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 80px;
-    padding-top: 0px;
+.sub-section-alternative {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 80px;
+	padding-top: 0px;
 }
 
-
-.project-container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-grow: 1;
+.project-container {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-grow: 1;
 }
-
-
 
 /* Hero project styling goes here */
 
-.project-hero-container{
-    display: inline-block;
-    height:auto;
-    box-shadow: var(--box-shadow);
-    margin: 10px;
-    padding:30px;
+.project-hero-container {
+	display: inline-block;
+	height: auto;
+	box-shadow: var(--box-shadow);
+	margin: 10px;
+	padding: 30px;
 }
 
-
-.project-hero-image{
-    /* width:75vw; */
-    height:600px;
-    margin-top:25px;    
-
+.project-hero-image {
+	/* width:75vw; */
+	height: 600px;
+	margin-top: 25px;
 }
-
-
 
 /* Project card styling */
 
-.project-card{
-    /* changed from pixels to view width and then to width% here to control positioning better */
-    width:25%;
-    min-width: 300px;
-    /* may need to set height back from auto to 800px if all the cards ends up being different sizes once content is added to them */
-    height:auto;
-    box-shadow: var(--box-shadow);
-    margin: 10px;
-    padding:30px;
+.project-card {
+	/* changed from pixels to view width and then to width% here to control positioning better */
+	width: 25%;
+	min-width: 300px;
+	/* may need to set height back from auto to 800px if all the cards ends up being different sizes once content is added to them */
+	height: auto;
+	box-shadow: var(--box-shadow);
+	margin: 10px;
+	padding: 30px;
 }
 
-
-.project-image{
-    width:250px;
-    height: 200px;
-    margin-top:25px;    
+.project-image {
+	width: 250px;
+	height: 200px;
+	margin-top: 25px;
 }
 
-
-.subtext{
-    font-size:20px;
-    font-weight: 300;
+.subtext {
+	font-size: 20px;
+	font-weight: 300;
 }
 
-
-.project-link{
-    text-decoration: none;
-    color: coral;
-    font-size: 25px;
-    font-weight: 200px;
+.project-link {
+	text-decoration: none;
+	color: coral;
+	font-size: 25px;
+	font-weight: 200px;
 }
-
-
-
-
 
 /* Media query - rules for mobile device layout goes here */
 
 @media only screen and (max-width: 1000px) {
+	.hero h1 {
+		font-size: 50px;
+	}
 
-    .hero h1{
-        font-size: 50px;
-    }
+	.hero p {
+		font-size: 30px;
+	}
 
-    .hero p{
-        font-size: 30px;
-    }
+	/* Project section responsive layout*/
+	.project-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
-    /* Project section responsive layout*/
-    .project-container{
-        display: flex;
-        flex-wrap: wrap;
-    }
+	.project-hero-container {
+		width: 75vw;
+		min-width: 300px;
+	}
 
+	.project-hero-image {
+		content: url("https://github.com/faisal244/Portfolio/blob/main/assets/images/01-html-css-git-homework-demo.png?raw=true");
+		width: 250px;
+		margin-top: 25px;
+		height: auto;
+	}
 
-    .project-hero-container{
+	.project-card {
+		width: 75vw;
+		min-width: 300px;
+	}
 
-        width:75vw;
-        min-width: 300px;
-    }
+	/* Hamburger Menu Styling */
 
+	nav {
+		display: flex;
+		flex-direction: column-reverse;
+		background-color: var(--hamburger-background-color);
+	}
 
-    .project-hero-image{
-        content: url("https://github.com/faisal244/Portfolio/blob/main/assets/images/01-html-css-git-homework-demo.png?raw=true");
-        width:250px;
-        margin-top:25px; 
-        height: auto;
-    
-    }
+	.logo {
+		display: none;
+	}
 
+	.hamburger {
+		display: block;
+		border: 0;
+		background-color: transparent;
+		color: white;
+		font-size: 30px;
+		margin: 20px;
+		align-self: flex-end;
+	}
 
-    .project-card{
-        width:75vw;
-        min-width: 300px;
-    }
+	.hamburger:focus {
+		outline: 0;
+	}
 
+	ul {
+		display: none;
+		background-color: var(--hamburger-background-color);
+		margin: 0px;
+	}
 
+	ul.show {
+		display: block;
+	}
 
-/* Hamburger Menu Styling */
-  
-    nav{
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: var(--hamburger-background-color)
+	/* About Me Section responsive layout */
 
-    }
+	.hero-text {
+		flex-wrap: wrap;
+	}
 
+	.sub-section {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		padding: 80px;
+	}
 
-    .logo{
-        display:none;
-    }
+	.headshot-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 
+	.information {
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 0px;
+	}
 
-    .hamburger {
-        display: block;
-        border:0;
-        background-color: transparent;
-        color: white;
-        font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
-    }
-
-
-    .hamburger:focus {
-       outline: 0;
-    }
-
-
-    ul{
-        display:none;
-        background-color: var(--hamburger-background-color)
-        margin: 0px;
-        
-
-    }
-
-
-    ul.show{
-        display: block;
-        
-    
-    }
-
- 
-
-/* About Me Section responsive layout */
- 
-.hero-text{
-    flex-wrap: wrap;
- }
-
-
-    .sub-section{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        padding: 80px;
-    
-    }
-
-
-    .headshot-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    
-
-   .information{
-    justify-content: center;
-    align-items: center; 
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 0px; 
-    }
-
-
-    .cv-button{
-        width: 20rem;
-        height: 5rem;
-        border-radius: 30px;
-        background-color: coral;
-        font-size: 30px;
-        font-weight: 300px;
-        text-align: center;
-        align-items: center;
-        padding-top:50px;
-        margin-top: 75px;
-        justify-content: center;
-    }
-
+	.cv-button {
+		width: 20rem;
+		height: 5rem;
+		border-radius: 30px;
+		background-color: coral;
+		font-size: 30px;
+		font-weight: 300px;
+		text-align: center;
+		align-items: center;
+		padding-top: 50px;
+		margin-top: 75px;
+		justify-content: center;
+	}
 }
