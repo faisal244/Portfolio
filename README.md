@@ -39,7 +39,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](/assets/images/website-mockup.gif)
+![portfolio demo](./assets/images/website-mockup.gif)
 
 
 Below is an overview of the changes made to meet the University of Birmingham acceptance criteria:
@@ -110,14 +110,10 @@ Below is an overview of the changes made to meet the University of Birmingham ac
 
 * Created an event listener that listens for clicks to the hamburger button, which shows or hides the 3 top navigation links
 
-## Note:
-
-My CV is in the process of being updated, and has not been included yet - so the Download CV button currently doesn't link to any file
-
 
 ## Future Features and functionality
 
-In future i would like to revisit this portfolio and explore the following:
+In future i would like to revisit this portfolio and explore development of the following:
 
 * A CSS grid layout for my projects
 
