@@ -233,7 +233,7 @@ footer .socials {
 }
 
 .project-hero-image {
-	/* width:75vw; */
+	width: 75vw;
 	height: 600px;
 	margin-top: 25px;
 }
