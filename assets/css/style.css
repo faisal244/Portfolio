@@ -87,6 +87,11 @@ footer .socials {
 	padding-top: 100px;
 }
 
+#three-container {
+	width: 1100px;
+	height: 900px;
+}
+
 /* Nav and hero area styling */
 
 .logo {
@@ -279,6 +284,12 @@ footer .socials {
 /* Media query - rules for mobile device layout goes here */
 
 @media only screen and (max-width: 1000px) {
+
+	#three-container {
+		display: none;
+	}
+
+
 	.hero h1 {
 		font-size: 50px;
 	}
@@ -398,10 +409,3 @@ footer .socials {
 /* canvas {
 	background-image: radial-gradient(#666, #333);
 } */
-
-
-
-#three-container {
-	width: 1100px;
-	height: 1000px;
-}
