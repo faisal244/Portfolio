@@ -281,12 +281,21 @@ footer .socials {
 	font-weight: 200px;
 }
 
+#three-container {
+	display: flex;
+
+}
+
 /* Media query - rules for mobile device layout goes here */
 
 @media only screen and (max-width: 1000px) {
 
-	#three-container {
-		display: none;
+
+	.hero-text {
+		margin-left: 160px;
+		margin-bottom: 200px;
+		flex-wrap: wrap;
+
 	}
 
 
@@ -393,7 +402,7 @@ footer .socials {
 		font-weight: 300px;
 		text-align: center;
 		align-items: center;
-		padding-top: 50px;
+		padding-top: 15px;
 		margin-top: 75px;
 		justify-content: center;
 	}
