@@ -1,5 +1,5 @@
 window.onload = init;
-console.ward = function () {}; // what warnings?
+console.ward = function () {};
 
 function init() {
 	var root = new THREERoot({
@@ -12,8 +12,8 @@ function init() {
 	root.renderer.setPixelRatio(window.devicePixelRatio || 1);
 	root.camera.position.set(0, 0, 60);
 
-	var width = 160;
-	var height = 89;
+	var width = 140;
+	var height = 70;
 
 	var slide = new Slide(width, height, "out");
 	var l1 = new THREE.ImageLoader();
