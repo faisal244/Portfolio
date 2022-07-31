@@ -7,6 +7,8 @@
 	--button-text-active: #808080;
 	--box-shadow: 5px 5px 20px rgb(185, 183, 183);
 	--hamburger-background-color: #2b2c38;
+	--teal: #1c4646;
+	--gold-text: #e6c4b0;
 }
 
 /* CSS Global Element Styling Rules */
@@ -63,12 +65,13 @@ hr {
 
 a {
 	text-decoration: none;
+	/* color: var(--gold-text); */
 	color: white;
 }
 
 /* Footer Styling */
 footer {
-	background-color: black;
+	background-color: var(--teal);
 	color: white;
 	text-align: center;
 	padding: 50px;
@@ -84,6 +87,7 @@ footer .socials {
 	padding-top: 100px;
 }
 
+
 /* Nav and hero area styling */
 
 .logo {
@@ -98,9 +102,9 @@ footer .socials {
 }
 
 .hero {
-	background-color: #1c1d25;
+	background-color: var(--teal);
 	height: 100vh;
-	color: white;
+	/* color: var(--gold-text); */
 	font-size: 40px;
 }
 
@@ -112,9 +116,13 @@ footer .socials {
 }
 
 .hero-text {
-	margin-left: 40px;
+	margin-left: 160px;
 	margin-bottom: 200px;
 	flex-wrap: wrap;
+	position: absolute;
+
+	/* background-color: var(--teal); */
+	/* color: var(--gold-text); */
 }
 
 .socials {
@@ -127,7 +135,7 @@ footer .socials {
 }
 
 #contact-me {
-	color: white;
+	color: var(--gold-text);
 }
 
 /* Button Styling */
@@ -141,7 +149,7 @@ footer .socials {
 	font-weight: 300px;
 	text-align: center;
 	align-items: center;
-	padding-top: 22px;
+	padding-top: 10px;
 	margin-top: 20px;
 }
 
@@ -154,7 +162,7 @@ footer .socials {
 	font-weight: 300px;
 	text-align: center;
 	align-items: center;
-	padding-top: 30px;
+	padding-top: 10px;
 	margin-top: 50px;
 }
 
@@ -177,7 +185,7 @@ footer .socials {
 	padding-top: 0px;
 }
 
-/* This is whaere you can adjust the font size for the about me text */
+/* This is where you can adjust the font size for the about me text */
 .sub-section p {
 	font-size: 1.2rem;
 }
@@ -233,7 +241,7 @@ footer .socials {
 }
 
 .project-hero-image {
-	/* width:75vw; */
+	width: 75vw;
 	height: 600px;
 	margin-top: 25px;
 }
@@ -269,9 +277,35 @@ footer .socials {
 	font-weight: 200px;
 }
 
+#three-container {
+	display: flex;
+	width: 800px;
+	height: 800px;
+}
+
 /* Media query - rules for mobile device layout goes here */
 
 @media only screen and (max-width: 1000px) {
+
+	#three-container {
+		display: none;
+	}
+
+	.hero {
+		background-color: var(--teal);
+		height: 100vh;
+		color: var(--gold-text);
+		font-size: 20px;
+	}
+
+	.hero-text {
+		margin-left: 160px;
+		margin-bottom: 200px;
+		flex-wrap: wrap;
+
+	}
+
+
 	.hero h1 {
 		font-size: 50px;
 	}
@@ -308,6 +342,7 @@ footer .socials {
 		display: flex;
 		flex-direction: column-reverse;
 		background-color: var(--hamburger-background-color);
+		position: relative;
 	}
 
 	.logo {
@@ -355,6 +390,7 @@ footer .socials {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		margin-left: 0;
 	}
 
 	.information {
@@ -374,8 +410,19 @@ footer .socials {
 		font-weight: 300px;
 		text-align: center;
 		align-items: center;
-		padding-top: 50px;
+		padding-top: 15px;
 		margin-top: 75px;
 		justify-content: center;
 	}
 }
+
+/* three.js styling */
+
+/* body {
+	margin: 0;
+	overflow: hidden;
+} */
+
+/* canvas {
+	background-image: radial-gradient(#666, #333);
+} */
