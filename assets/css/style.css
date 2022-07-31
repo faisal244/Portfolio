@@ -279,8 +279,8 @@ footer .socials {
 
 #three-container {
 	display: flex;
-	width: 1100px;
-	height: 900px;
+	width: 800px;
+	height: 800px;
 }
 
 /* Media query - rules for mobile device layout goes here */
@@ -390,7 +390,7 @@ footer .socials {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin: 0px;
+		margin-left: 0;
 	}
 
 	.information {
